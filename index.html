@@ -7,65 +7,85 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Intro</title>
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/index-layout.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div id="logo">
-            <span><a href="index.html">Programs for business</a></span>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#service">Service</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#feedback">Feedback</a></li>
-                <li><a href="#contact">Contact</a></li>
+        <nav class="top-nav">
+            <div id="logo">
+                <a class="logo-link" href="index.html">
+            <img class="logo-img" src="img/logo.png" alt>
+            <p class="logo-name">
+                <span class="logo-text">Programs</span>
+                <span class="loogo-text">for business</span>
+            </p>
+            </a>
+            </div>
+            <ul class="top-menu">
+                <li class="menu-text"><a href="#home">Home</a></li>
+                <li class="menu-text"><a href="#service">Service</a></li>
+                <li class="menu-text"><a href="#portfolio">Portfolio</a></li>
+                <li class="menu-text"><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <aside>
-            <div><img src="img/program.jpg" alt="program"></div>
-            
-        </aside>
-        <article>
-            <secthion id="home">
-                 <p>You are greeted by the team "Programs for Business".</p>
-            <h1>Our programs are developed on new approaches to doing business.</h1>
-            <p>Doing business with the help of our programs will be for you much easier and more successful.</p>
-            </secthion>
-            <h2 id="service">service</h2>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut
-                aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent
-                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
-        </article>
- 
-    </main>
-    <footer>
-        <footer>
-            <div id="contact">
-                <h3>Drop us a line</h3>
-                <form action="">
-                    <input type="text" placeholder="Name"><br>
-                    <input type="email" placeholder="E-mail"><br>
-                    <textarea placeholder="Message"></textarea><br>
-                    <input type="submit" value="Send">
-                </form>
-            </div>
-            <div>
-                <h3>Our contacts</h3>
-                <ul>
-                    <li>office@programs-for-business.com</li>
-                    <li>+38(067)-000-00-00</li>
-                    <li>www.facebook.com/business</li>
-                    <li>www.programs-for-business.com</li>
-                </ul>
-            </div>
-            <span>Сopyright 2018 Programs For Business</span>
-        </footer>
 
+        </nav>
+
+        <section id="home">
+            <h2 class="home-text">You are greeted by the team "Programs for Business".</h2>
+            <article>
+                <h2 class="home-text-h1">Our programs are developed on the basis of new approaches to accomplishing tasks.</h2>
+                <p class="home-p">Doing business with the help of our programs will be for you much easier and more successful.</p>
+            </article>
+        </section>
+        <div class="baner">
+            <button class="button">Shopping cart</button>
+        </div>
+    </header>
+
+
+
+    <main class="main">
+        <div id="service">
+            <span class="caption-service">service</span>
+            <img class="serv-img" src="img/sevice.jpg" alt="serv">
+            <p class="service-p">High qualification and many years of experience of the specialists of our service will help you to qualitatively set up and train staff to work with our software, as well as to eliminate all violations in its work for free.</p>
+
+        </div>
+
+
+        <div id="portfolio">
+            <span class="caption_portfolio">portfolio</span>
+            <img class="portf_img" src="img/prog2.jpg" alt="portf">
+            <p class="portf_p">Our programs are designed for such platforms as WordPress, phpBB, Magento, OpenCart, osCommerce, Joomla, Drupal, Html5. This is a program for the analysis of purchases, site visits, selection and tracking of fast and non-expensive delivery, control over the availability of goods in the warehouse and also the accounting software.</p>
+        </div>
+
+   
+
+        <div id="contact">
+            <h3 class="line">Drop us a line</h3>
+            <form action="Message">
+                <p class="text"><input type="text" placeholder="Name"></p><br>
+                <p class="email"><input type="email" placeholder="E-mail"></p><br>
+                <p class="Message"><textarea placeholder="Message"></textarea></p><br>
+                <p class="submit"><input type="submit" value="Send"></p>
+            </form>
+        </div>
+        <div>
+            <h3>Our contacts</h3>
+            <ul>
+                <li>office@programs-for-business.com</li>
+                <li>+38(067)-000-00-00</li>
+                <li>www.facebook.com/business</li>
+                <li>www.programs-for-business.com</li>
+            </ul>
+        </div>
+        
+         </main>
+    <footer>
+        <div id="footer_info">
+        <span class="copy">Сopyright 2018 Programs For Business</span>
+</div>
     </footer>
 </body>
 

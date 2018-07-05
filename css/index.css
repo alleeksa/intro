@@ -1,6 +1,6 @@
-* {
-    margin: 30;
-    padding: 20;
+body{
+    margin: auto;
+    max-width: 1300px;
 
 }
 
@@ -9,81 +9,236 @@ html body {
     height: 100%;
 }
 
-body {}
-
-
-/*header {*/
-
-background-image: url("../img/body program.jpg ");
-background-position: center center;
-background-size: cover;
-height: 300px;
-display: flex;
-align-items: center;
-justify-content: flex-start;
-padding-left: 10%;
+li {
+    list-style-type: none;
 }
 
-header h1 {
-    font-size: 10rem;
-    color: white;
+a {
+    text-decoration: none;
 }
+
+h2 {
+    margin: 1px 1px 1px 1px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 600px;
+    background-image: url(../img/prog.jpg);
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.top-nav {
+    
+    display: block;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: #087379;
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+    float: right;
+    font-size: 20px;
+    border: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 30px;
+    overflow: hidden;
+    position: relative;
+    list-style: none;
+    
+
+     }
+     
+header nav li a {
+    font-size: 20px;
+    border: 1px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 50px;
+    color: #9aa6a7;
+   
+    }    
+
+#home {
+    position: relative;
+    top: 200px;
+    font-size: 20px;
+    height: auto;
+    margin: 30px 5px 5px 5px;
+    padding:  0 10px;
+    display: block;
+    background-size: cover;
+    padding-top: 0%;
+    clear: left;
+}
+
+.home-text {
+    color: #567b71;
+    font-size: 2rem;
+}
+.home-text-h1 {
+    color: #716538;
+    font-size: 3rem;
+}
+.home-p {
+    color: #988640; 
+}
+.logo-img {
+    display: inline-block;
+    width: 7rem;
+    position: relative;
+    left: 10px;
+    
+}
+
+
 
 #logo a {
-    margin-left: 20px;
+  
+    margin-left: 0px;
     float: left;
     font-weight: bold;
     text-decoration: none;
-    font-size: 26px;
-    text-shadow: 0 1px 0 white;
-    color: #373e47;
+    font-size: 20px;
+    color: #89888a;
+    padding: 5px;
+    
+}
+
+.baner {
+    font-size: 20px;
+    color: #087379;
+    position: relative;
+    right: 400px;
+    top: 60px;
+    margin: 5px 5px 5px 5px;
+    float: left;
+}
+
+.button.button {
+    border: 2px solid #afb7b5;
+    padding: 5px;
+    background: #f59b29;
+    color: #988640 ;
+    font-size: 20px;
+}
+
+main {
+    text-align: center;
+    
+}
+
+.serv-img {
+    float: right;
+     width: 40rem;
+     
+}
+
+.caption-service {
+    
+    font-size: 35px;
+     color: #5d5a51 ;
+}
+
+.service-p {
+   position: relative;
+   font-size: 20px;
+   color: #988640 ;
+}
+#service {
+	border-top-style: solid;
+	line-height: 1.5;
+	overflow: auto;
 }
 
 
-article {
+#portfolio {
+	border-top-style: solid;
+	line-height: 1.5;
+	overflow: auto;
+}
+
+.portf_p {
+    position: relative;
+   font-size: 20px;
+   color: #988640 ;
+}
+
+.portf_img {
+    float: left;
+     width: 40rem;
+     
+}
+
+.caption_portfolio {
+    
+    font-size: 35px;
+     color: #5d5a51 ;
+}
+
+#contact {
+	border-top-style: solid;
+	line-height: 1.5;
+	overflow: auto;
+}
+
+#footer_info {
+	border-top-style: solid;
+	line-height: 1.5;
+	overflow: auto;
+	background: #716d68;
+	
+}
+
+input {
+    margin: 5px 5px 5px 5px;
     padding: 10px;
 }
 
-nav {
-    overflow: hidden;
-    float: right;
+textarea {
+    margin: 5px 5px 5px 5px;
+    padding: 20px;
 }
 
-nav li {
-    float: left;
-    list-style: none;
+.text {
+   
+  margin: 2px;
 }
 
-nav li a {
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 0 30px;
-    color: #143567;
-    text-shadow: 0 1px 0 white;
+.email {
+   
+  margin: 2px;
 }
 
-nav li a:hover {
-    color: #a45f93;
+.Message {
+    
+  margin: 2px;
 }
 
-#home {
-    font-size: 30px;
-    height: 400px;
-    margin: 1px 1px 1px 1px;
-    padding: 30px;
-}
-main {
-text-align: center;
+.submit {
+   
+  margin: 2px;
 }
 
-aside img {
-    display: block;
-    width: 100%;
+.copy {
+     color: #d5d6cd;
+    
 }
 
-footer p {
-    text-align: center;
-    background:
-     #EAECF0
-}
+
+
+    
+
+
