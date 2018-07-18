@@ -13,12 +13,12 @@
         font-size: 2rem;
     }
     .home-text {
-    
-    font-size: 23px;
+
+        font-size: 23px;
     }
-    
+
     .home-text-h1 {
-    font-size: 2rem;
+        font-size: 2rem;
     }
 
     aside {
@@ -46,15 +46,114 @@
         position: relative;
         top: 30px;
     }
-  
-     div.baner  {
-        
+
+    div.baner {
+
         font-size: 1rem;
         position: relative;
         right: 40px;
         top: 90px;
 
     }
+
+    .toggle-menu {
+        width: 60px;
+        height: 60px;
+        float: right;
+        position: relative;
+        z-index: 100;
+        border: none;
+        top: 20px;
+        right: 20px;
+        position: fixed;
+    }
+
+    .toggle-menu span {
+        display: block;
+    }
+
+    .burger {
+        width: 34px;
+        height: 3px;
+        position: absolute;
+        top: -22px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 200;
+    }
+
+    .logo-top {
+        position: relative;
+        top: 0;
+        width: 35px;
+        height: 3px;
+        background: #afab8b;
+        border: none;
+        transition: transform 0.5s, top 0.2s;
+        
+    }
+
+    .logo-but {
+        position: relative;
+        width: 35px;
+        height: 3px;
+        top: 10px;
+        background: #afab8b;
+        border: none;
+        transition: transform 0.5s, top 0.2s;
+        transition-delay: 0.2s, 0s;
+        
+    }
+
+    .logo-footer {
+        position: relative;
+        width: 35px;
+        height: 3px;
+        top: 20px;
+        background: #afab8b;
+        border: none;
+       transition: all 0.5s;
+        transition-delay: 0.1s;
+        
+    }
+
+    .burger.active .logo-top {
+        top: 35px;
+        transform: rotate(130deg);
+    }
+
+    .burger.active .logo-footer {
+        top: 30px;
+        transform: rotate(-130deg);
+    }
+
+    .burger.active .logo-but {
+        opacity: 0;
+        top: 0;
+        transform: rotate(150deg);
+    }
+
+    .top-menu{
+
+        display: none;
+        background-color: #3f475ae6;
+        height: 600px;
+        width: 300px;
+    }
+
+   .menu-text{
+       height: 100px;
+        width: 200px;
+   }
+
+  a.fadeInUp.animated {
+        display: flex;
+        padding: 50px;
+    }
+
+
 }
 
 @media screen and (max-width: 450px) {
@@ -68,10 +167,12 @@
     aside div {
         flex-basis: 100%;
     }
-  
     .top-menu {
-     padding: 5px 30px;
 
+        
+        background-color: #3f475ae6;
+        height: 600px;
+        width: 300px;
     }
 
     #home p {
@@ -80,27 +181,23 @@
         position: relative;
         top: 10px;
     }
-    
+
     .home-text {
-    
-    font-size: 23px;
-    }
-    
-    .home-text-h1 {
-    font-size: 2rem;
+
+        font-size: 23px;
     }
 
-    div.baner  {
-        
+    .home-text-h1 {
+        font-size: 2rem;
+    }
+
+    div.baner {
+
         font-size: 1rem;
         position: relative;
         right: 40px;
         top: 90px;
 
     }
-    
+
 }
-
-
-
-
